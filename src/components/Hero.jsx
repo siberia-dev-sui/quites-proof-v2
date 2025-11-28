@@ -47,7 +47,7 @@ const Hero = () => {
                 <img
                     id="hero-image"
                     alt="hero image"
-                    className="absolute inset-0 w-full h-full object-cover opacity-60"
+                    className="absolute inset-0 w-full h-full object-cover opacity-100"
                     src="/hero-bg.png"
                 />
 
@@ -56,8 +56,8 @@ const Hero = () => {
                     <Globe />
                 </div>
 
-                {/* Gradient Overlay for depth */}
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/80"></div>
+                {/* Gradient Overlay for depth - Reduced intensity */}
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/10 to-black/60"></div>
             </div>
         </section>
     );
